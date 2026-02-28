@@ -1,5 +1,5 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Fraunces', serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -13,8 +13,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.8;
+  letter-spacing: 0.05em;
+}
+
 a {
-  font-weight: 500;
+...
   color: #646cff;
   text-decoration: inherit;
 }
