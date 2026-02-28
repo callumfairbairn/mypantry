@@ -13,5 +13,6 @@ export default defineConfig({
     port: Number(process.env.PORT) || 8080,
     host: '0.0.0.0',
     strictPort: true,
+    allowedHosts: ['mypantry-git-582962839987.europe-west1.run.app']
   }
 })
